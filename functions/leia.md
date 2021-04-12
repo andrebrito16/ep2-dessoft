@@ -1,0 +1,1 @@
+## Coloque nessa pasta todas as funções!
