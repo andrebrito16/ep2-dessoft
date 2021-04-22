@@ -33,7 +33,7 @@ while True:
         break
     indice = 1
     for carta in baralho:
-        print(f"\033[30m {indice}. {adiciona_cor(carta)} \033[30m")
+        print(f"\033[34m {indice}. {adiciona_cor(carta)} ")
         
         indice += 1
     
