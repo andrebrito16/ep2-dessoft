@@ -33,7 +33,7 @@ while True:
         break
     indice = 1
     for carta in baralho:
-        print(f"{indice}. {carta}")
+        print(f"{indice}. {adiciona_cor(carta)}")
         indice += 1
     
     if possui_movimentos_possiveis(baralho):
