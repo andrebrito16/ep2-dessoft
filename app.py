@@ -31,6 +31,7 @@ while True:
     if len(baralho) == 0:
         print("Você GANHOU! ")
         break
+
     indice = 1
     for carta in baralho:
         print(f"\033[34m {indice}. {adiciona_cor(carta)} ")
