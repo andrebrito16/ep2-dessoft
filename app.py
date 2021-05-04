@@ -32,7 +32,7 @@ while True:
         break
     baralho = cria_baralho()
     while True:
-        if len(baralho) == 0:
+        if len(baralho) == 1:
             continuar = input("Você GANHOU! Deseja jogar novamente? 1 para sim e 0 para não [1/0]")
             break
 
