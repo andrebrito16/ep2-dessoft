@@ -28,7 +28,12 @@ Desde que alguma das condições acima seja satisfeita, qualquer carta pode ser 
 continuar = "1"
 try:
     while True:
+<<<<<<< HEAD
         if continuar != "1":
+=======
+        if len(baralho) == 1:
+            continuar = input("Você GANHOU! Deseja jogar novamente? 1 para sim e 0 para não [1/0]")
+>>>>>>> dd97a271dee5af91137ab12c21a0b2dce4a3dd7a
             break
         baralho = cria_baralho()
         while True:
